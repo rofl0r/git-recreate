@@ -23,7 +23,7 @@ following:
 - cd into the clone and do `tar cf myproject.tar .git/`.
   it makes no sense to waste time using compression since the contents of
   .git are already compressed.
-- put myclone.tar in some directory thats available via http.
+- put myproject.tar in some directory thats available via http.
 - download the file via `wget -c myhost.com/myproject.tar`.
   wget can (and with `-c`, will) automatically resume the download when your
   connection goes away.
