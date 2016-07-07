@@ -12,7 +12,7 @@ and leave the rest away, as it can later be recreated.
 
 there's also the problem that huge git repos are nearly impossible to clone
 with a slow internet connection, since there's no way to resume the download
-one it fails (say you've downloaded 99% of a 2GB repo, and your connection goes
+once it fails (say you've downloaded 99% of a 2GB repo, and your connection goes
 off - you have to downloaded the whole 2 GB again).
 in that case the most effective method to transfer the repo to your box is the
 following:
@@ -21,7 +21,7 @@ following:
 - clone the git repo there. the process probably just takes a few seconds,
   since most dedicated servers are behind GBit connections.
 - cd into the clone and do `tar cf myproject.tar .git/`.
-  it makes no sense no to waste time using compression since the contents of
+  it makes no sense to waste time using compression since the contents of
   .git are already compressed.
 - put myclone.tar in some directory thats available via http.
 - download the file via `wget -c myhost.com/myproject.tar`.
