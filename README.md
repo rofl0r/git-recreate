@@ -13,7 +13,7 @@ and leave the rest away, as it can later be recreated.
 there's also the problem that huge git repos are nearly impossible to clone
 with a slow internet connection, since there's no way to resume the download
 once it fails (say you've downloaded 99% of a 2GB repo, and your connection goes
-off - you have to downloaded the whole 2 GB again).
+off - you have to download the whole 2 GB again).
 in that case the most effective method to transfer the repo to your box is the
 following:
 
